@@ -1,22 +1,21 @@
 {
-    "name": "xiaosier/libweibo",
+    "name": "n3yang/libweibo",
     "type": "library",
     "description": "PHP sdk for Weibo open platform",
     "keywords": ["sdk","weibo"],
-    "homepage": "http://github.com/xiaosier/libweibo",
+    "homepage": "http://github.com/n3yang/libweibo",
     "license": "MIT",
     "authors": [
         {
-            "name": "lazypeople",
-            "email": "hfutming@gmail.com",
-            "homepage": "http://lazy.changes.com.cn",
-            "role": "Developer"
+            "homepage": "http://n3yang.com",
         }
     ],
     "require": {
-        "php": ">=5.0.0"
+        "php": ">=5.4.0"
     },
     "autoload": {
-        "files": ["saetv2.ex.class.php"]
+        "psr-4": {
+            "n3yang\\libweibo\\": "psr-4"
+        }
     }
 }
