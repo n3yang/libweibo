@@ -1,4 +1,7 @@
 <?
+/**
+ * 
+ */
 
 namespace n3yang\libweibo;
 
