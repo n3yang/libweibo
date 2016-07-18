@@ -1,7 +1,6 @@
 
-=================
-
 用于新浪微博开放平台的PHP SDK. 内含能直接使用的DEMO.
+=================
 
 forked from xiaosier/libweibo
 
